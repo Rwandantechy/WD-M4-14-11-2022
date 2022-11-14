@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-const todoList = require('../index');
+const todoList = require('../todo');
 // eslint-disable-next-line no-unused-vars
 const { all,add,markAsComplete,overdue,dueToday,dueLater,toDisplayableList} = todoList();
 
