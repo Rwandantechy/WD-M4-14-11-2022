@@ -2,7 +2,7 @@
   "name": "testing_todolists",
   "version": "1.0.0",
   "description": "testing todo list",
-  "main": "index.js",
+  "main": "todo.js",
   "scripts": {
     "test": "jest",
     "prepare": "husky install"
