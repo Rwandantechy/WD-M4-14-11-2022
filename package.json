@@ -7,6 +7,12 @@
     "test": "jest",
     "prepare": "husky install"
   },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "prettier --write ."
+    ]
+  },
   "author": "rwandantechy",
   "license": "ISC",
   "devDependencies": {
